@@ -1,0 +1,25 @@
+{
+  "name": "jsonp",
+  "version": "1.0.0",
+  "description": "jsonp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivaxy/jsonp.git"
+  },
+  "keywords": [
+    "jsonp"
+  ],
+  "author": "vivaxy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivaxy/jsonp/issues"
+  },
+  "homepage": "https://github.com/vivaxy/jsonp#readme",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
