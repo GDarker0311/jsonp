@@ -1,5 +1,5 @@
-./dest/jsonp.js: ./event-emitter/src/event-emitter.js ./dest
-	./node_modules/.bin/browserify ./src/jsonp.js -t babelify --outfile ./dest/jsonp.js
+./demo/index.js: ./event-emitter/src/event-emitter.js ./demo/index.jsx
+	./node_modules/.bin/browserify ./demo/index.jsx -t babelify --outfile ./demo/index.js
 
 ./dest:
 	mkdir ./dest

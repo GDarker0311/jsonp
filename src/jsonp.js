@@ -78,4 +78,4 @@ class Jsonp extends EventEmitter {
     }
 }
 
-window.Jsonp = Jsonp;
+export default Jsonp;
